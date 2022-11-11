@@ -35,7 +35,7 @@ function setup() {
   stepS = new XSlider(50, 50, 100, -1, 1, 1, 'lane step (m)');
   uS = new XSlider(50, 80, 100, 1, 20, 5, 'speed (m/s)');
   prevS = new XSlider(50, 110, 100, 0.01, 5, 5, 'lookahead (m)');
-  kpS = new XSlider(50, 140, 100, 0.001, .25, .05, 'Kp');
+  kpS = new XSlider(50, 140, 100, 0.001, .5, .05, 'Kp');
   kdS = new XSlider(50,170,100,0,1,0,'100*Kd');
   steerzS = new XSlider(400, 110, 100, 0.1, 1, .7, 'Steer Motor zeta');
   steerwS = new XSlider(400, 140, 100, PI, 10 * PI, PI, 'Steer Motor omega');
